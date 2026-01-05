@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+
+/* ===== Layout ===== */
+.layout {
+  display: flex;
+  height: 100vh;
+  background: #f4f6f8;
+}
+
+/* ===== Sidebar ===== */
+.sidebar {
+  width: 240px;
+  background: #1e293b;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar h1 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* Sidebar links */
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 15px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #cbd5e1;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background: #334155;
+  color: #fff;
+}
+
+/* ===== Main area ===== */
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  height: 60px;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+/* ===== Content ===== */
+.content {
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* ===== Cards (page ichida ishlatish uchun) ===== */
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.btnnn{
+  position: absolute;
+  left: 170vh;
+  width: 180px;
+  height: 30px;
+  background-color: #001b47;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.formms{
+  width: 500px;
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+.dd{
+  width: 500px;
+  height: 500px;
+}
